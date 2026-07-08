@@ -1,0 +1,40 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "kernel",
+    "shell",
+    "terminal",
+    "de",
+    "wm",
+    "packages",
+    "uptime",
+    "separator",
+    "font",
+    "terminalfont",
+    "cursor",
+    "separator",
+    "cpu",
+    "gpu",
+    "memory",
+    "separator",
+    "disk",
+    "separator",
+    "localip",
+    "battery",
+    "poweradapter",
+    "break",
+    "colors"
+  ],
+  "logo": {
+    "source": "/home/logan/Pictures/Artemis.jpg",
+    "type": "kitty", // or "kitty" for images in supported terminals
+    "width": 40, // optional, adjust size
+    "padding": {
+        "top": 1,
+        "left": 4
+	}
+    }
+}
