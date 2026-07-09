@@ -11,6 +11,6 @@ return {
 		{ "<leader>b", "<cmd>Neotree buffers toggle<cr>", desc = "Neotree Buffers"},
 		{ "<leader>g", "<cmd>Neotree git_status toggle<cr>", desc = "NeoTree Git Status"},
 	},
-	lazy = false,
+	lazy = false
 }
 
