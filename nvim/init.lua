@@ -1,3 +1,4 @@
+--Setup lazy.nvim
 require("config.lazy")
 
 --Setup absolute, relative line numbers
