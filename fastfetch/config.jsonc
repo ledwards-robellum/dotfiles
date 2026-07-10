@@ -1,5 +1,11 @@
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "small",
+    "padding": {
+      "top": 1
+    }
+  },
   "modules": [
     "title",
     "separator",
@@ -27,14 +33,5 @@
     "poweradapter",
     "break",
     "colors"
-  ],
-  "logo": {
-    "source": "/home/logan/Pictures/Artemis.jpg",
-    "type": "kitty", // or "kitty" for images in supported terminals
-    "width": 40, // optional, adjust size
-    "padding": {
-        "top": 1,
-        "left": 4
-	}
-    }
+  ]
 }
