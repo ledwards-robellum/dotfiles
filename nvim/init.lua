@@ -1,13 +1,2 @@
---Setup lazy.nvim
+-- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-
---Setup absolute, relative line numbers
-vim.wo.number = true
-vim.wo.relativenumber = true
-
---Setup bufferline
-vim.opt.termguicolors = true
-require('bufferline').setup{}
-
---Setup lualine
-require('lualine').setup{}
