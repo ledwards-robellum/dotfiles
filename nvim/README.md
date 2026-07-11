@@ -39,7 +39,7 @@ mv ~/.cache/nvim{,.bak}
 ```
 ### Clone the starter
 ```
-git clone https://github.com/LazyVim/starter ~/.config/nvim
+git clone https://github.com/ledwards-robellum/dotfiles/
 ```
 ### Remove .git
 ```
