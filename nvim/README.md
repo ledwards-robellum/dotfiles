@@ -41,9 +41,15 @@ mv ~/.cache/nvim{,.bak}
 ```
 git clone https://github.com/ledwards-robellum/dotfiles/
 ```
+I would recommended to add to a folder in ~/repos/
+#### Copy Desired config
+Example
+```
+cp -r ~/repos/dotfiles/nvim/ ~/.config/
+```
 ### Remove .git
 ```
-rm -rf ~/.config/nvim/.git
+rm -rf ~/.config/.git
 ```
 ### Start NeoVim
 ```
