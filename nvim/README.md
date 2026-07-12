@@ -55,3 +55,10 @@ rm -rf ~/.config/.git
 ```
 nvim
 ```
+## Optional
+### Arch Linux
+Install nodejs, npm
+```
+sudo pacman -S nodejs npm
+```
+npm install -g neovim
