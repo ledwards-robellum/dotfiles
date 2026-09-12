@@ -5,7 +5,7 @@
 Install package requirements
 
 ```
-sudo pacman -S otf-font-awesome lazygit fzf ripgrep fd npm
+sudo pacman -S otf-font-awesome lazygit fzf ripgrep fd npm wl-clipboard
 ```
 
 ## Linux/MacOS
@@ -13,7 +13,7 @@ sudo pacman -S otf-font-awesome lazygit fzf ripgrep fd npm
 If you are not on arch, I'm sure you know how to use your distros package manager, just include these packages:
 
 ```
-otf-font-awesome lazygit fzf ripgrep fd
+otf-font-awesome lazygit fzf ripgrep npm fd wl-clipboard
 ```
 
 Install cargo-binstall
